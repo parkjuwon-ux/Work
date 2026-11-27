@@ -1,0 +1,29 @@
+{
+    "title":  "업무 학습 관리",
+    "artifact_url":  "https://claude.ai/artifact/TEctiqPc8ENYg8nziPE8zD",
+    "version":  "1795672909-2083",
+    "backup_date":  "2026-11-27",
+    "files":  [
+                  "index.html",
+                  "fonts/PretendardVariable.woff2"
+              ],
+    "capabilities":  {
+                         "db":  {
+                                    "rules":  [
+                                                  {
+                                                      "path":  "",
+                                                      "read":  "owner",
+                                                      "write":  "owner"
+                                                  },
+                                                  {
+                                                      "path":  "data/users/{self}",
+                                                      "read":  "interact",
+                                                      "write":  "interact"
+                                                  }
+                                              ]
+                                },
+                         "user":  {
+
+                                  }
+                     }
+}
